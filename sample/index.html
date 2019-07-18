@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Camel.js Example</title>
+</head>
+<body>
+    <div id="container" style="width: 50%; height: 1000px;"></div>
+    <script src="/js/Camel.js"></script>
+    <script>
+        let arifmeticMean = 5;
+        let sigma = 1.4;
+        let lsl = 1;   
+        let usl = 10;
+        let camel = new Camel("container");
+        camel.chart(arifmeticMean, sigma, lsl, usl);
+    </script>
+</body>
+</html>
