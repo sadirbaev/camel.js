@@ -1,5 +1,5 @@
 # camel.js
-Camel.js is JavaScript library for visualizing process capability index. 
+Camel.js is JavaScript library for visualizing **Process Capability Index (CP/CPK)**. 
 ## Installation
 [Download](https://github.com/qarakenbacho/camel.js/blob/master/camel.js/Camel.js) Camel.js library and add to your /js folder.
 
