@@ -15,6 +15,36 @@
         let lsl = 1;   
         let usl = 10;
         let camel = new Camel("container");
+        camel.setBackgroundColor("#ffffff");
+        camel.setIsAnimationEnabled(false);
+        
+        camel.setLslLineColor("#0000ff");
+        camel.setLslLineWeight(2);
+        camel.setLslLabelColor("#1E90FF");
+        camel.setLslLabelSize(16);
+        
+        camel.setUslLineColor("#0000ff");
+        camel.setUslLineWeight(2);
+        camel.setUslLabelColor("#1E90FF");
+        camel.setUslLabelSize(16);
+        
+        camel.setCslLineColor("#d3d3d3");
+        camel.setCslLineWeight(2);
+
+        camel.setScaleLineColor("#0000ff");
+        camel.setScaleLineWeight(2);
+        camel.setScaleLabelColor("#1E90FF");
+        camel.setScaleLabelSize(12);
+        camel.setScaleCircleColor("#0000ff");
+        camel.setScaleCircleRadius(2);
+
+        camel.setGraphColor("#00ff00");
+        camel.setGraphWeight(2);
+        camel.setGraphLabelColor("#1E90FF");
+        camel.setGraphLabelSize(18);
+
+        camel.setInfoTextColor("#1E90FF");
+        camel.setInfoTextSize(18);
         camel.chart(arifmeticMean, sigma, lsl, usl);
     </script>
 </body>
